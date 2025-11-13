@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+        }
+        .profile-card{
+            width: 300px;
+            height: 400px;
+            border: 2px solid black;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        .profile-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .profile-card h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .profile-card p {
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card"> 
+        <img src="https://img.freepik.com/premium-vector/software-developer-vector-illustration-communication-technology-cyber-security_1249867-5464.jpg?semt=ais_hybrid&w=740&q=80" alt="Profile Image">
+        <div class="profile-details">
+            <h2>Mahi</h2>
+            <p>Frontend Developer & UI/UX enthusiast. Passionate about creating clean, simple, and beautiful web experiences.</p>
+        </div>
+    </div>
+</body>
+</html>
