@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Box Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+        body{
+            font-family: sans-serif;
+            background-color: #f0f2f5; 
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+        }
+        .stats-container{
+            width: 350px;
+            padding: 30px; 
+            background-color: #e6e0ff; 
+            border-radius: 20px; 
+            text-align: center;
+        }
+        .stats-container h2{
+            color: #333;
+            margin-bottom: 25px; 
+        }
+        .stat-card{
+            padding: 20px; 
+            margin-bottom: 20px; 
+            background-color: #ffffff;
+            border-radius: 10px; 
+        }
+        .stat-card:last-child{
+            margin-bottom: 0;
+        }
+        .stat-card p{
+
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .stat-card h3{
+            font-size: 2.2rem;
+            color: #111;
+        }
+    </style>
+</head>
+<body>
+    <div class="stats-container">
+        <h2>Highest & Average CTC</h2>
+        <div class="stat-card">
+            <p>Expected Increase in Salary Potential</p>
+            <h3>60%</h3>
+        </div>
+        <div class="stat-card">
+            <p>Average CTC</p>
+            <h3>₹6.1 LPA</h3>
+        </div>
+        <div class="stat-card">
+            <p>Highest CTC</p>
+            <h3>₹36 LPA</h3>
+        </div>
+    </div>
+</body>
+</html>
